@@ -1,0 +1,23 @@
+<table>
+    <tr>
+        <td>Movie Name</td>
+        <td><input type="text" name="name" #name></td>
+    </tr>
+    <tr>
+        <td>Give Rating</td>
+        <td><input type="number" name="rating"></td>
+    </tr>
+    <tr>
+        <td>Select Genre :</td>
+        <td>
+            <select>
+                <option>Drama</option>
+                <option>Fiction</option>
+                <option>Satire</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td><button type="button" (click)=Addmovies(name,rating)>Add Movie</button></td>
+    </tr>
+</table>
